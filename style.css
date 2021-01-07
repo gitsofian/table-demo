@@ -1,0 +1,40 @@
+body{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#table{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 700px;
+    margin: auto;
+    
+}
+
+.title{
+    text-align: center;
+}
+
+.cell{
+    background-color: rgb(35, 209, 209);
+    padding: 10px;
+    border: 2px solid black;
+}
+.head{
+    background-color: #000;
+    color: aquamarine;
+}
+.col-span{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.row-span{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
