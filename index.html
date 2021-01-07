@@ -7,19 +7,37 @@
     <title>Table Demo</title>
 </head>
 <body>
-    <h1 class="title">Table with Grid and Flex </h1>
-    <div id="table">
-        <div class="cell head">Last name</div>
-        <div class="cell head">Name</div>
-        <div class="cell head">Age</div>
+    <h1 class="title">Responsive Table with Grid and Flex</h1>
 
-        <div class="cell">Joel</div>
-        <div class="cell">Durand</div>
-        <div class="cell row-span">55</div>
-
-        <div class="cell col-span">Vincent Jacque</div>
-        
-
+    <div id="container">
+        <h4>List of Employees</h4>
+        <div id="table">
+            <div class="cell head borderRadiusLeft">First name</div>
+            <div class="cell head">Last Name</div>
+            <div class="cell head hide">Fonction</div>
+            <div class="cell head borderRadiusRight">Since</div>
+    
+            <div class="cell-1">Claudia</div>
+            <div class="cell-1">Durand</div>
+            <div class="cell-1 hide">Project Manager</div>
+            <div class="cell-1">12 years</div>
+            
+            <div class="cell-2">Jules</div>
+            <div class="cell-2">Vincent</div>
+            <div class="cell-2 hide">Developer</div>
+            <div class="cell-2">9 years</div>
+            
+            <div class="cell-1">Alain</div>
+            <div class="cell-1">Richard</div>
+            <div class="cell-1 hide">Graphiste</div>
+            <div class="cell-1">7 years</div>
+            
+            <div class="cell-2">Frederic</div>
+            <div class="cell-2">Michel</div>
+            <div class="cell-2 hide">Developer</div>
+            <div class="cell-2">10 years</div>
+        </div>
     </div>
+    
 </body>
 </html>
